@@ -30,7 +30,8 @@ Let's create some files so we can have something pretty displayed in browser. No
 
 Inside the `js/app/` folder, create a new file called `app.js`. This file is very simple - it tells Angular that we want to create a new module. We can then reference that module later on.
 
-Put this inside `app.js`.
+Put this inside `app.js`:
+
 ```js
 angular
   .module('app', []);
@@ -38,7 +39,7 @@ angular
 
 ### MainController.js
 
-Next, go to `js/app/controllers`. Make a new file called `MainController.js` and put this inside of it -
+Next, go to `js/app/controllers`. Make a new file called `MainController.js` and put this inside of it:
 
 ```js
 function MainController($scope) {
@@ -48,7 +49,7 @@ function MainController($scope) {
 
 Here we've defined the main controller for our app. No need to worry about the specifics just yet, we are going to look at Controllers in depth very soon.
 
-Next, we need to tell Angular about our controller. Add this to the bottom of `MainController.js`
+Next, we need to tell Angular about our controller. Add this to the bottom of `MainController.js`:
 
 ```js
 angular
