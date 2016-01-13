@@ -7,8 +7,6 @@
  
 ## Instructions
 
-Go to the [Angular website](https://angularjs.org/) and download the latest version.
-
 Setup your directory structure. From the root directory, the structure should be as follows (you can find the index.html in this repo) -
 
 - js/
@@ -24,13 +22,13 @@ Setup your directory structure. From the root directory, the structure should be
 - css/
 - index.html
 
-Make sure you put the Angular code you downloaded into the `js/` folder!
+You can find `angular.js` in this repo - make sure you put it into the `js/` folder!
 
 Let's create some files so we can have something pretty displayed in browser. No need to worry with what this code does yet, we will be covering it all very shortly!
 
 ### app.js
 
-Inside the `js/app/` folder, create a new file called `app.js`. This file is very simple, and again - no need to worry about what it does just yet!
+Inside the `js/app/` folder, create a new file called `app.js`. This file is very simple - it tells Angular that we want to create a new module. We can then reference that module later on.
 
 Put this inside `app.js`.
 ```js
@@ -54,6 +52,6 @@ angular
 
 ### Hello, your name!
 
-Now open up index.html and you should see `Hello, your name`! Wow - our first small Angular application. 
+Now open up index.html in Google Chrome and you should see `Hello, your name`! Wow - our first small Angular application. 
 
 Have a play around with `MainController.js` and see what else you can do!
