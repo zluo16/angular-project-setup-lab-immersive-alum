@@ -44,7 +44,13 @@ Next, go to `js/app/controllers`. Make a new file called `MainController.js` and
 function MainController($scope) {
   $scope.name = 'PUT YOUR NAME HERE!';
 }
+```
 
+Here we've defined the main controller for our app. No need to worry about the specifics just yet, we are going to look at Controllers in depth very soon.
+
+Next, we need to tell Angular about our controller. Add this to the bottom of `MainController.js`
+
+```js
 angular
   .module('app')
   .controller('MainController', MainController);
