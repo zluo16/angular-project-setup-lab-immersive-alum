@@ -9,6 +9,7 @@
 
 Setup your directory structure. From the root directory, the structure should be as follows (you can find the index.html in this repo) -
 
+```
 - js/
   - app/
     - directives/
@@ -21,6 +22,7 @@ Setup your directory structure. From the root directory, the structure should be
 - img/
 - css/
 - index.html
+```
 
 You can find `angular.js` in this repo - make sure you put it into the `js/` folder!
 
