@@ -7,21 +7,21 @@
  
 ## Instructions
 
-Setup your directory structure. From the root directory, the structure should be as follows (you can find the index.html in this repo) -
+Setup your directory structure. From the root directory, the structure should be as follows (you can find the index.html in this repo):
 
 ```
-- js/
-  - app/
-    - directives/
-    - controllers/
-    - services/
-    - templates/
-      - partials/
-      - views/
-  - angular.js
-- img/
-- css/
-- index.html
+├── js/
+│   ├── app/
+│   │   ├── directives/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── templates/
+│   │   │   ├── partials/
+│   │   │   ├── views/
+│   ├── angular.js
+├── img/
+├── css/
+├── index.html
 ```
 
 You can find `angular.js` in this repo - make sure you put it into the `js/` folder!
