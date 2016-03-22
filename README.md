@@ -2,12 +2,12 @@
 
 ## Objectives
 
-- Download the latest version of Angular 1.x
 - Setup the directory structure for your Angular application
- 
+- Create a basic Angular application
+
 ## Instructions
 
-Setup your directory structure. From the root directory, the structure should be as follows (you can find the index.html in this repo):
+Setup your directory structure. From the root directory, the structure should be as follows. We've included two files for you - `index.html` and `angular.js`. You may need to move them around to get them into the correct place!
 
 ```
 ├── js/
@@ -23,8 +23,6 @@ Setup your directory structure. From the root directory, the structure should be
 ├── css/
 ├── index.html
 ```
-
-You can find `angular.js` in this repo - make sure you put it into the `js/` folder!
 
 Let's create some files so we can have something pretty displayed in browser. No need to worry with what this code does yet, we will be covering it all very shortly!
 
@@ -61,6 +59,6 @@ angular
 
 ### Hello, your name!
 
-Now open up index.html in Google Chrome and you should see `Hello, your name`! Wow - our first small Angular application. 
+Now, start a local server by running `python -m SimpleHTTPServer 3000`. Preview your page at `localhost:3000` (or using the `Preview` button in Nitrous) and you should see `Hello, your name`! Wow - our first small Angular application.
 
 Have a play around with `MainController.js` and see what else you can do!
