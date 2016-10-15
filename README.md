@@ -59,7 +59,7 @@ angular
 
 ### Hello, your name!
 
-Now, start a local server by running `python -m SimpleHTTPServer 3000`. Preview your page at `localhost:3000`and you should see `Hello, your name`! Wow - our first small Angular application.
+Now, start a local server by running `python -m SimpleHTTPServer 3000`. Preview your page at `localhost:3000` and you should see `Hello, your name`! Wow - our first small Angular application.
 
 Have a play around with `MainController.js` and see what else you can do!
 
