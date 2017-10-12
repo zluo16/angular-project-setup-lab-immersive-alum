@@ -1,4 +1,7 @@
-function MainController($scope) {\
+function MainController($scope) {
   $scope.name = 'Mike'
-  debugger
 }
+
+angular
+  .module('app')
+  .controller('MainController', MainController)
